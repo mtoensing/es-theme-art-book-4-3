@@ -1,5 +1,5 @@
 # Art Book 4:3, an EmulationStation theme for 4:3 resolutions
-A simple theme for Emulation Station based on the look of a coffee table book.  Built and tested on 351Elec for the RG351V handheld.
+A simple theme for Emulation Station based on the look of a coffee table book.  Built and tested on 351ELEC for the RG351V handheld.
 
 ## Preview
 
