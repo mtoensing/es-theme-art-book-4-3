@@ -43,8 +43,9 @@ Please note that this is entirely the work of @anthonycaccese. The only changes 
 
 
 ## Acknowledgments
-
+- Original Theme 3:2: **anthonycaccese**
 - 351ELEC by fewtarius - https://github.com/fewtarius/351ELEC
-- Full Screen Background Art created and provided by Szalik
+- Full Screen and Centered Background Art created and provided by Szalik
 - Some logo graphics are modified from the Carbon theme by Eric Hettervik
 - ChangaOne font by Eduardo Tunni
+
