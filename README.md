@@ -1,11 +1,21 @@
 # Art Book 4:3, an EmulationStation theme for 4:3 resolutions
 A simple theme for Emulation Station based on the look of a coffee table book.  Built and tested on 351ELEC for the RG351V handheld.
 
+## Previews
+Fullscreen
+![image](https://user-images.githubusercontent.com/77732736/130350546-9ae276e6-cd8e-46e9-9202-a315c5c93485.png)
+
+Centered
+![image](https://user-images.githubusercontent.com/77732736/130350573-9c687e34-54d9-4cf0-9170-4d2a0d885fd7.png)
+
+Metadata
+![image](https://user-images.githubusercontent.com/77732736/130350612-fb8a77a1-36ff-458a-8c5a-deb9c99924ee.png)
+
 ## Details
 
 - Built for 4:3 resolutions (specifically tested on the Anbernic RG351V running 351ELEC) 
 - System, basic, detailed, video and grid views are supported
-- Support for "All Games", "Favorites", "Last Played" and "Custom Collections"
+- Support for every 351ELEC System an Automatic Game Collection
 
 
 ## Configuration Options
@@ -22,7 +32,7 @@ A simple theme for Emulation Station based on the look of a coffee table book.  
 
 
 ## Acknowledgments
-- Original Theme 3:2: **anthonycaccese**
+- Original Theme 3:2: **anthonycaccese** https://github.com/anthonycaccese
 - 351ELEC by fewtarius - https://github.com/fewtarius/351ELEC
 - Full Screen and Centered Background Art created and provided by Szalik
 - Some logo graphics are modified from the Carbon theme by Eric Hettervik
