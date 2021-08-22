@@ -36,8 +36,7 @@ Metadata
 
 ## Acknowledgments
 - Original Theme 3:2: **anthonycaccese** https://github.com/anthonycaccese
-- 351ELEC by fewtarius - https://github.com/fewtarius/351ELEC
-- Full Screen and Centered Background Art created and provided by Szalik
+- 351ELEC - https://github.com/351ELEC/351ELEC
 - Some logo graphics are modified from the Carbon theme by Eric Hettervik
-- Nunito font by Vernon Adams
+- Nunito fonts by Vernon Adams
 
