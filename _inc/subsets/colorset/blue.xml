@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
+<!--
+theme name:     Art Book 4:3
+authors:        Szalik
+license:        creative commons CC-BY-NC-SA
+-->
 <theme>
-  <formatVersion>7</formatVersion>
-  <variables>
-    <colorBase>0000dd</colorBase>
-    <colorBaseDark>0000bb</colorBaseDark>
-    <colorBaseLight>0000fb</colorBaseLight>
-    <colorBaseNeutral>2222dd</colorBaseNeutral>
-    <colorBaseNeutralDark>2222bb</colorBaseNeutralDark>
-    <colorBaseNeutralLight>2222fb</colorBaseNeutralLight>
-    <colorNeutralContrast>${colorWhite}</colorNeutralContrast>
-  </variables>
+	<formatVersion>7</formatVersion>
+
+	<variables>
+		<customcolorheader>4c4cff</customcolorheader>
+		<customcolorsubheader>9999ff</customcolorsubheader>
+		<customcolorfoooter>1a1aff</customcolorfoooter>
+	</variables>
 </theme>

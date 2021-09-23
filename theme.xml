@@ -14,6 +14,15 @@ license:        creative commons CC-BY-NC-SA
 		<spacerImage>./_inc/images/space.png</spacerImage>
 	</variables>
 
+	<!-- Color Sets -->
+	<subset name="colorset" displayName="Color Scheme: ">
+		<include name="orange" displayName="Orange">./_inc/subsets/colorset/orange.xml</include>
+		<include name="red" displayName="Red">./_inc/subsets/colorset/red.xml</include>
+		<include name="green" displayName="Green">./_inc/subsets/colorset/green.xml</include>
+		<include name="blue" displayName="Blue">./_inc/subsets/colorset/blue.xml</include>
+		<include name="yellow" displayName="Yellow">./_inc/subsets/colorset/yellow.xml</include>
+	</subset>
+
 	<view name="system,basic,detailed,video,grid">
 		<helpsystem name="help">
 			<pos>1 1</pos>
@@ -215,13 +224,13 @@ license:        creative commons CC-BY-NC-SA
 		<menuText name="menutitle">
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>0.048</fontSize>
-			<color>e93424</color>
+			<color>${customcolorheader}</color>
 		</menuText>
 
 		<menuText name="menufooter">
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>0.0365</fontSize>
-			<color>b20000</color>
+			<color>${customcolorfoooter}</color>
 		</menuText>
 
 		<menuText name="menutext">
@@ -235,7 +244,7 @@ license:        creative commons CC-BY-NC-SA
 		<menuTextSmall name="menutextsmall">
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>0.035</fontSize>
-			<color>e93424</color>
+			<color>${customcolorsubheader}</color>
 		</menuTextSmall>
 		<menuBackground name="menubg">
 			<color>000000</color>
@@ -284,18 +293,9 @@ license:        creative commons CC-BY-NC-SA
 	</subset>
 
 	<!-- Alternative System View Art Support -->
-	<subset name="88-mph" displayName="Alternative Arts: ">
+	<subset name="alt-art" displayName="Alternative Arts: ">
 		<include name="off" displayName="Off">./_inc/subsets/backgrounds/backgrounds-alt-off.xml</include>
 		<include name="on" displayName="On">./_inc/subsets/backgrounds/backgrounds-alt-on.xml</include>
-	</subset>
-
-	<!-- Color Sets -->
-	<subset name="colorset" displayName="Color Scheme: ">
-		<include name="red" displayName="Red">./_inc/subsets/colorset/red.xml</include>
-		<include name="blue" displayName="Blue">./_inc/subsets/colorset/blue.xml</include>
-		<include name="green" displayName="Green">./_inc/subsets/colorset/green.xml</include>
-		<include name="yellow" displayName="Yellow">./_inc/subsets/colorset/yellow.xml</include>
-		<include name="orange" displayName="Orange">./_inc/subsets/colorset/orange.xml</include>
 	</subset>
 
 	<!-- Game Count Display -->
@@ -305,7 +305,7 @@ license:        creative commons CC-BY-NC-SA
 	</subset>
 
 	<!-- Metadata -->
-	<subset name="metadata" displayName="Gamelist Style: ">
+	<subset name="metadata" displayName="Metadata Style: ">
 		<include name="off" displayName="No Metadata">./_inc/subsets/metadata/metadata-off.xml</include>
 		<include name="min" displayName="Minimum">./_inc/subsets/metadata/metadata-min.xml</include>
 		<include name="min-flipped" displayName="Minimum (Flipped)">./_inc/subsets/metadata/metadata-min-flipped.xml</include>
@@ -313,6 +313,12 @@ license:        creative commons CC-BY-NC-SA
 		<include name="max-flipped" displayName="Maximum (Flipped)">./_inc/subsets/metadata/metadata-max-flipped.xml</include>
 		<include name="media-only" displayName="Media Only">./_inc/subsets/metadata/metadata-media-only.xml</include>
 		<include name="polymega" displayName="Polymega">./_inc/subsets/metadata/metadata-polymega.xml</include>
+	</subset>
+
+	<!-- Click Sound TODO -->
+	<subset name="click-sound" displayName="Click Sound: ">
+		<include name="on" displayName="Short">./_inc/subsets/backgrounds-alt-off.xml</include>
+		<include name="off" displayName="Long">./_inc/subsets/backgrounds-alt-off.xml</include>
 	</subset>
 
 </theme>
