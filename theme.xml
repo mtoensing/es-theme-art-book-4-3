@@ -14,6 +14,12 @@ license:        creative commons CC-BY-NC-SA
 		<spacerImage>./_inc/images/space.png</spacerImage>
 	</variables>
 
+	<!-- Theme Style -->
+	<subset name="themestyle" displayName="Theme Style: ">
+		<include name="dark" displayName="Dark">./_inc/subsets/style/dark.xml</include>
+		<include name="light" displayName="Light">./_inc/subsets/style/light.xml</include>
+	</subset>
+
 	<!-- Color Sets -->
 	<subset name="colorset" displayName="Color Scheme: ">
 		<include name="orange" displayName="Orange">./_inc/subsets/colorset/orange.xml</include>
