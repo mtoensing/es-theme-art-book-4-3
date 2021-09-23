@@ -212,7 +212,7 @@ license:        creative commons CC-BY-NC-SA
       <menuText name="menutitle">
          <fontPath>${bodyFont}</fontPath>
          <fontSize>0.048</fontSize>
-         <color>ffa500</color>
+         <color>e93424</color>
       </menuText>
       <menuText name="menufooter">
          <fontPath>${bodyFont}</fontPath>
@@ -224,13 +224,13 @@ license:        creative commons CC-BY-NC-SA
          <fontSize>0.042</fontSize>
          <color>999999</color>
          <separatorColor>222222</separatorColor>
-         <selectorColor>181818</selectorColor>
-         <selectedColor>ffffff</selectedColor>
+         <selectorColor>eeeeee</selectorColor>
+         <selectedColor>181818</selectedColor>
       </menuText>
       <menuTextSmall name="menutextsmall">
          <fontPath>${bodyFont}</fontPath>
          <fontSize>0.035</fontSize>
-         <color>cc8400</color>
+         <color>e93424</color>
       </menuTextSmall>
       <menuBackground name="menubg">
          <color>000000</color>
