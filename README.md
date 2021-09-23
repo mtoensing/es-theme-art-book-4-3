@@ -39,4 +39,5 @@ Metadata
 - 351ELEC - https://github.com/351ELEC/351ELEC
 - Some logo graphics are modified from the Carbon theme by Eric Hettervik
 - Nunito fonts by Vernon Adams
+- Alternative Centered System Images by **Freepik** 
 
