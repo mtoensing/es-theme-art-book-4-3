@@ -16,7 +16,7 @@ license:        creative commons CC-BY-NC-SA
 	</variables>
 
 	<!-- Theme Style -->
-	<subset name="themestyle" displayName="Theme Style: ">
+	<subset name="themestyle" displayName="(WIP) Theme Style: ">
 		<include name="dark" displayName="Dark">./_inc/subsets/style/dark.xml</include>
 		<include name="light" displayName="Light">./_inc/subsets/style/light.xml</include>
 	</subset>
@@ -31,7 +31,7 @@ license:        creative commons CC-BY-NC-SA
 	</subset>
 
 	<!-- For Elders XD -->
-	<subset name="blindornot" displayName="Are you Blind?: ">
+	<subset name="blindornot" displayName=" (WIP)Are you Blind ?: ">
 		<include name="blind-on" displayName="No">./_inc/subsets/blind/no.xml</include>
 		<include name="blind-off" displayName="YES IM">./_inc/subsets/blind/yes.xml</include>
 	</subset>
