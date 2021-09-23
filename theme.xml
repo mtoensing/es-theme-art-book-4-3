@@ -7,218 +7,223 @@ license:        creative commons CC-BY-NC-SA
 <theme>
 	<formatVersion>7</formatVersion>
 
+	<!-- Font Types -->
 	<variables>
 		<logoFont>./_inc/fonts/nunito-Italic.ttf</logoFont>
 		<bodyFont>./_inc/fonts/nunito-Bold.ttf</bodyFont>
 		<spacerImage>./_inc/images/space.png</spacerImage>
 	</variables>
 
-   <view name="system,basic,detailed,video,grid">
-      <helpsystem name="help">
-         <pos>1 1</pos>
-      </helpsystem>
-      <image name="logo">
-         <path>./_inc/systems/logos/${system.theme}.svg</path>
-      </image>
-      <text name="logoText">
-         <fontPath>${logoFont}</fontPath>
-         <forceUppercase>true</forceUppercase>
-         <lineSpacing>1</lineSpacing>
-         <alignment>center</alignment>
-         <fontSize>0.1</fontSize>
-         <color>ffffff</color>
-      </text>
-      <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>${spacerImage}</path>
-         <tile>true</tile>
-         <zIndex>1</zIndex>
-         <color>000000</color>
-      </image>
-   </view>
+	<view name="system,basic,detailed,video,grid">
+		<helpsystem name="help">
+			<pos>1 1</pos>
+		</helpsystem>
+		<image name="logo">
+			<path>./_inc/systems/logos/${system.theme}.svg</path>
+		</image>
+		<text name="logoText">
+			<fontPath>${logoFont}</fontPath>
+			<forceUppercase>true</forceUppercase>
+			<lineSpacing>1</lineSpacing>
+			<alignment>center</alignment>
+			<fontSize>0.1</fontSize>
+			<color>ffffff</color>
+		</text>
+		<image name="background" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>${spacerImage}</path>
+			<tile>true</tile>
+			<zIndex>1</zIndex>
+			<color>000000</color>
+		</image>
+	</view>
 
-   <view name="system">
-      <carousel name="systemcarousel">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <type>horizontal</type>
-         <color>FFFFFF00</color>
-         <size>1 1</size>
-         <logoSize>0.55 0.425</logoSize>
-         <logoScale>1</logoScale>
-         <maxLogoCount>1</maxLogoCount>
-      </carousel>
-   </view>
+	<!-- System Logo Display Settings -->
+	<view name="system">
+		<carousel name="systemcarousel">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<type>horizontal</type>
+			<color>FFFFFF00</color>
+			<size>1 1</size>
+			<logoSize>0.55 0.425</logoSize>
+			<logoScale>1</logoScale>
+			<maxLogoCount>1</maxLogoCount>
+		</carousel>
+	</view>
 
-   <view name="basic,detailed,video,grid">
-      <image name="background" extra="true">
-         <color>000000</color>
-      </image>
-      <image name="logo">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.18</pos>
-         <maxSize>0.4 0.15</maxSize>
-      </image>
-      <text name="logoText">
-         <pos>0.05 0.14</pos>
-         <size>0.9 0.075</size>
-         <fontSize>0.06</fontSize>
-         <color>ffffffcc</color>
-      </text>
-      <text name="system-name" extra="true">
-         <color>ffffffcc</color>
-      </text>
-   </view>
+	<view name="basic,detailed,video,grid">
+		<image name="background" extra="true">
+			<color>000000</color>
+		</image>
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.18</pos>
+			<maxSize>0.4 0.15</maxSize>
+		</image>
+		<text name="logoText">
+			<pos>0.05 0.14</pos>
+			<size>0.9 0.075</size>
+			<fontSize>0.06</fontSize>
+			<color>ffffffcc</color>
+		</text>
+		<text name="system-name" extra="true">
+			<color>ffffffcc</color>
+		</text>
+	</view>
 
-   <view name="basic">
-      <image name="background" extra="true">
-         <color>000000</color>
-      </image>
-   </view>
+	<view name="basic">
+		<image name="background" extra="true">
+			<color>000000</color>
+		</image>
+	</view>
 
-   <view name="basic,detailed,video">
-      <textlist name="gamelist">
-         <pos>0.05 0.335</pos>
-         <size>0.9 0.64</size>
-         <alignment>center</alignment>
-         <lineSpacing>1.81</lineSpacing>
-         <fontSize>0.035</fontSize>
-         <scrollSound>./_inc/sounds/select.wav</scrollSound>
-         <fontPath>${bodyFont}</fontPath>
-         <horizontalMargin>0.008</horizontalMargin>
-         <selectorColor>222222</selectorColor>
-         <selectedColor>ffffff</selectedColor>
-         <primaryColor>ffffff44</primaryColor>
-         <secondaryColor>ffffff44</secondaryColor>
-      </textlist>
-   </view>
+	<view name="basic,detailed,video">
+		<textlist name="gamelist">
+			<pos>0.05 0.335</pos>
+			<size>0.9 0.64</size>
+			<alignment>center</alignment>
+			<lineSpacing>1.81</lineSpacing>
+			<fontSize>0.035</fontSize>
+			<scrollSound>./_inc/sounds/select.wav</scrollSound>
+			<fontPath>${bodyFont}</fontPath>
+			<horizontalMargin>0.008</horizontalMargin>
+			<selectorColor>222222</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ffffff44</primaryColor>
+			<secondaryColor>ffffff44</secondaryColor>
+		</textlist>
+	</view>
 
-   <view name="detailed,video,grid">
-      <text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description,md_name,md_lbl_gametime,md_gametime">
-         <visible>false</visible>
-         <fontPath>${bodyFont}</fontPath>
-         <alignment>left</alignment>
-         <color>ffffff</color>
-      </text>
-      <text name="md_genre,md_lbl_players,md_players">
-         <color>777777</color>
-      </text>
-      <text name="md_description">
-         <color>999999</color>
-      </text>
-      <text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_gametime,md_gametime">
-         <color>444444</color>
-      </text>
-      <datetime name="md_releasedate,md_lastplayed">
-         <visible>false</visible>
-         <fontPath>${bodyFont}</fontPath>
-         <color>444444</color>
-         <alignment>left</alignment>
-      </datetime>
-      <rating name="md_rating">
-         <visible>false</visible>
-         <fontPath>${bodyFont}</fontPath>
-         <color>444444</color>
-         <alignment>left</alignment>
-      </rating>
-      <text name="md_spacer" extra="true">
-         <color>222222</color>
-      </text>
-      <textlist name="gamelist">
-         <pos>0.05 0.335</pos>
-         <size>0.42 0.64</size>
-         <alignment>left</alignment>
-      </textlist>
-      <image name="md_image">
-         <origin>0.5 0.5</origin>
-         <pos>0.7375 0.578</pos>
-         <maxSize>0.4 0.45</maxSize>
-      </image>
-      <image name="md-media-mask" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>3</zIndex>
-      </image>
-   </view>
+	<view name="detailed,video,grid">
+		<text name="md_lbl_rating,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_playcount,md_playcount,md_lbl_lastplayed,md_lbl_players,md_players,md_lbl_releasedate,md_lbl_genre,md_genre,md_description,md_name,md_lbl_gametime,md_gametime">
+			<visible>false</visible>
+			<fontPath>${bodyFont}</fontPath>
+			<alignment>left</alignment>
+			<color>ffffff</color>
+		</text>
+		<text name="md_genre,md_lbl_players,md_players">
+			<color>777777</color>
+		</text>
+		<text name="md_description">
+			<color>999999</color>
+		</text>
+		<text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_gametime,md_gametime">
+			<color>444444</color>
+		</text>
+		<datetime name="md_releasedate,md_lastplayed">
+			<visible>false</visible>
+			<fontPath>${bodyFont}</fontPath>
+			<color>444444</color>
+			<alignment>left</alignment>
+		</datetime>
+		<rating name="md_rating">
+			<visible>false</visible>
+			<fontPath>${bodyFont}</fontPath>
+			<color>444444</color>
+			<alignment>left</alignment>
+		</rating>
+		<text name="md_spacer" extra="true">
+			<color>222222</color>
+		</text>
+		<textlist name="gamelist">
+			<pos>0.05 0.335</pos>
+			<size>0.42 0.64</size>
+			<alignment>left</alignment>
+		</textlist>
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.7375 0.578</pos>
+			<maxSize>0.4 0.45</maxSize>
+		</image>
+		<image name="md-media-mask" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>3</zIndex>
+		</image>
+	</view>
 
-   <view name="video,grid">
-      <image name="md_marquee">
-         <visible>false</visible>
-      </image>
-      <image name="md_image">
-         <visible>false</visible>
-      </image>
-      <video name="md_video">
-         <origin>0.5 0.5</origin>
-         <pos>0.7375 0.578</pos>
-         <maxSize>0.4 0.45</maxSize>
-         <delay>0.5</delay>
-         <showSnapshotDelay>true</showSnapshotDelay>
-         <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <snapshotSource>image</snapshotSource>
-         <snapshotSource>thumbnail</snapshotSource>
-         <zIndex>2</zIndex>
-      </video>
-   </view>
+	<view name="video,grid">
+		<image name="md_marquee">
+			<visible>false</visible>
+		</image>
+		<image name="md_image">
+			<visible>false</visible>
+		</image>
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.7375 0.578</pos>
+			<maxSize>0.4 0.45</maxSize>
+			<delay>0.5</delay>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<snapshotSource>image</snapshotSource>
+			<snapshotSource>thumbnail</snapshotSource>
+			<zIndex>2</zIndex>
+		</video>
+	</view>
 
-   <view name="grid">
-      <image name="md_image,md_media_bezel,md_media_screen,help-favorite,help-launch">
-         <visible>false</visible>
-      </image>
-      <video name="md_video">
-         <visible>false</visible>
-         <showSnapshotDelay>false</showSnapshotDelay>
-      </video>
-      <imagegrid name="gamegrid">
-         <pos>0.05 0.325</pos>
-         <size>0.9 0.60</size>
-         <margin>0 0</margin>
-         <padding>0 0 0 0</padding>
-         <autoLayout>3 1</autoLayout>
-         <autoLayoutSelectedZoom>1.0</autoLayoutSelectedZoom>
-         <centerSelection>true</centerSelection>
-         <animateSelection>false</animateSelection>
-         <scrollSound>./_inc/sounds/select.wav</scrollSound>
-         <scrollDirection>horizontal</scrollDirection>
-         <scrollLoop>true</scrollLoop>
-      </imagegrid>
-      <gridtile name="default">
-         <padding>5 5</padding>
-         <backgroundCornerSize>0 0</backgroundCornerSize>
-         <selectionMode>image</selectionMode>
-         <backgroundColor>11111100</backgroundColor>
-         <imageColor>ffffff44</imageColor>
-      </gridtile>
-      <gridtile name="selected">
-         <backgroundColor>ffffff11</backgroundColor>
-         <imageColor>ffffffff</imageColor>
-      </gridtile>
-      <text name="gridtile">
-         <alignment>center</alignment>
-         <fontPath>${bodyFont}</fontPath>
-         <fontSize>0.036</fontSize>
-         <lineSpacing>1.2</lineSpacing>
-         <color>000000</color>
-      </text>
-      <text name="gridtile_selected">
-         <color>cccccc</color>
-      </text>
-   </view>
+	<view name="grid">
+		<image name="md_image,md_media_bezel,md_media_screen,help-favorite,help-launch">
+			<visible>false</visible>
+		</image>
+		<video name="md_video">
+			<visible>false</visible>
+			<showSnapshotDelay>false</showSnapshotDelay>
+		</video>
+		<imagegrid name="gamegrid">
+			<pos>0.05 0.325</pos>
+			<size>0.9 0.60</size>
+			<margin>0 0</margin>
+			<padding>0 0 0 0</padding>
+			<autoLayout>3 1</autoLayout>
+			<autoLayoutSelectedZoom>1.0</autoLayoutSelectedZoom>
+			<centerSelection>true</centerSelection>
+			<animateSelection>false</animateSelection>
+			<scrollSound>./_inc/sounds/select.wav</scrollSound>
+			<scrollDirection>horizontal</scrollDirection>
+			<scrollLoop>true</scrollLoop>
+		</imagegrid>
+		<gridtile name="default">
+			<padding>5 5</padding>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<selectionMode>image</selectionMode>
+			<backgroundColor>11111100</backgroundColor>
+			<imageColor>ffffff44</imageColor>
+		</gridtile>
+		<gridtile name="selected">
+			<backgroundColor>ffffff11</backgroundColor>
+			<imageColor>ffffffff</imageColor>
+		</gridtile>
+		<text name="gridtile">
+			<alignment>center</alignment>
+			<fontPath>${bodyFont}</fontPath>
+			<fontSize>0.036</fontSize>
+			<lineSpacing>1.2</lineSpacing>
+			<color>000000</color>
+		</text>
+		<text name="gridtile_selected">
+			<color>cccccc</color>
+		</text>
+	</view>
 
+	<!-- Menu Color and Font settings -->
 	<view name="menu">
 		<menuText name="menutitle">
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>0.048</fontSize>
 			<color>e93424</color>
 		</menuText>
+
 		<menuText name="menufooter">
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>0.0365</fontSize>
 			<color>b20000</color>
 		</menuText>
+
 		<menuText name="menutext">
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>0.042</fontSize>
@@ -286,11 +291,11 @@ license:        creative commons CC-BY-NC-SA
 
 	<!-- Color Sets -->
 	<subset name="colorset" displayName="Color Scheme: ">
-		<include name="red" displayName="Red">./_inc/colorset/red.xml</include>
-		<include name="blue" displayName="Blue">./_inc/colorset/blue.xml</include>
-		<include name="green" displayName="Green">./_inc/colorset/green.xml</include>
-		<include name="yellow" displayName="Yellow">./_inc/colorset/yellow.xml</include>
-		<include name="orange" displayName="Orange">./_inc/colorset/orange.xml</include>
+		<include name="red" displayName="Red">./_inc/subsets/colorset/red.xml</include>
+		<include name="blue" displayName="Blue">./_inc/subsets/colorset/blue.xml</include>
+		<include name="green" displayName="Green">./_inc/subsets/colorset/green.xml</include>
+		<include name="yellow" displayName="Yellow">./_inc/subsets/colorset/yellow.xml</include>
+		<include name="orange" displayName="Orange">./_inc/subsets/colorset/orange.xml</include>
 	</subset>
 
 	<!-- Game Count Display -->
