@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 theme name:     Art Book 4:3
-authors:        Szalik & Anthony Caccese
+author:         Szalik 
+credit:         Anthony Caccese - Original Base 3:2 Theme
 license:        creative commons CC-BY-NC-SA
 -->
 <theme>
@@ -36,9 +37,9 @@ license:        creative commons CC-BY-NC-SA
 	</subset>
 
 	<!-- Click Sounds Sets -->
-	<subset name="clickset" displayName="Click Sound Type: ">
-		<include name="click1" displayName="Short">./_inc/subsets/clicks/click1.xml</include>
-		<include name="click2" displayName="Long">./_inc/subsets/clicks/click2.xml</include>
+	<subset name="clickset" displayName="Click Sound: ">
+		<include name="click1" displayName="Click 1">./_inc/subsets/clicks/click1.xml</include>
+		<include name="click2" displayName="Click 2">./_inc/subsets/clicks/click2.xml</include>
 	</subset>
 
 	<view name="system,basic,detailed,video,grid">
@@ -305,29 +306,29 @@ license:        creative commons CC-BY-NC-SA
 
     <!-- System View Art -->
 	<subset name="background-art" displayName="System View Art: ">
-		<include name="on" displayName="Full Screen">./_inc/subsets/backgrounds/background-art-fullscreen.xml</include>
-		<include name="full-screen" displayName="Centered ">./_inc/subsets/backgrounds/background-art-on.xml</include>
-		<include name="off" displayName="No Artwork">./_inc/subsets/backgrounds/background-art-off.xml</include>
+		<include name="full-screen" displayName="Full Screen">./_inc/subsets/backgrounds/background-art-fullscreen.xml</include>
+		<include name="centered" displayName="Centered ">./_inc/subsets/backgrounds/background-art-on.xml</include>
+		<include name="background-off" displayName="No Artwork">./_inc/subsets/backgrounds/background-art-off.xml</include>
 	</subset>
 
 	<!-- Alternative System View Art Support -->
 	<subset name="alt-art" displayName="Alternative Arts: ">
-		<include name="off" displayName="Off">./_inc/subsets/backgrounds/backgrounds-alt-off.xml</include>
-		<include name="on" displayName="On">./_inc/subsets/backgrounds/backgrounds-alt-on.xml</include>
+		<include name="alt-off" displayName="Off">./_inc/subsets/backgrounds/backgrounds-alt-off.xml</include>
+		<include name="alt-on" displayName="On">./_inc/subsets/backgrounds/backgrounds-alt-on.xml</include>
 	</subset>
 
 	<!-- Game Count Display -->
-	<subset name="game-count" displayName="Display Game Count: ">
-		<include name="on" displayName="Yes">./_inc/subsets/display-game-count-on.xml</include>
-		<include name="off" displayName="No">./_inc/subsets/display-game-count-off.xml</include>
+	<subset name="game-count" displayName="Games Count: ">
+		<include name="gamecount-off" displayName="Hide">./_inc/subsets/display-game-count-off.xml</include>
+		<include name="gamecount-on" displayName="Display">./_inc/subsets/display-game-count-on.xml</include>
 	</subset>
 
 	<!-- Metadata -->
 	<subset name="metadata" displayName="Metadata Style: ">
-		<include name="off" displayName="No Metadata">./_inc/subsets/metadata/metadata-off.xml</include>
-		<include name="min" displayName="Minimum">./_inc/subsets/metadata/metadata-min.xml</include>
+		<include name="meta-off" displayName="OFF">./_inc/subsets/metadata/metadata-off.xml</include>
+		<include name="minimum" displayName="Minimum">./_inc/subsets/metadata/metadata-min.xml</include>
 		<include name="min-flipped" displayName="Minimum (Flipped)">./_inc/subsets/metadata/metadata-min-flipped.xml</include>
-		<include name="max" displayName="Maximum">./_inc/subsets/metadata/metadata-max.xml</include>
+		<include name="maximum" displayName="Maximum">./_inc/subsets/metadata/metadata-max.xml</include>
 		<include name="max-flipped" displayName="Maximum (Flipped)">./_inc/subsets/metadata/metadata-max-flipped.xml</include>
 		<include name="media-only" displayName="Media Only">./_inc/subsets/metadata/metadata-media-only.xml</include>
 		<include name="polymega" displayName="Polymega">./_inc/subsets/metadata/metadata-polymega.xml</include>
