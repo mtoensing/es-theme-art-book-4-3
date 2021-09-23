@@ -29,6 +29,12 @@ license:        creative commons CC-BY-NC-SA
 		<include name="yellow" displayName="Yellow">./_inc/subsets/colorset/yellow.xml</include>
 	</subset>
 
+	<!-- For Elders XD -->
+	<subset name="blindornot" displayName="Are you Blind?: ">
+		<include name="blind-off" displayName="No">./_inc/subsets/style/light.xml</include>
+		<include name="blind-on" displayName="Yes">./_inc/subsets/style/dark.xml</include>
+	</subset>
+
 	<!-- Click Sounds Sets -->
 	<subset name="clickset" displayName="Click Sound Type: ">
 		<include name="click1" displayName="Short">./_inc/subsets/clicks/click1.xml</include>
