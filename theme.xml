@@ -23,6 +23,12 @@ license:        creative commons CC-BY-NC-SA
 		<include name="yellow" displayName="Yellow">./_inc/subsets/colorset/yellow.xml</include>
 	</subset>
 
+	<!-- Click Sounds Sets -->
+	<subset name="clickset" displayName="Click Sound Type: ">
+		<include name="click1" displayName="Short">./_inc/subsets/clicks/click1.xml</include>
+		<include name="click2" displayName="Long">./_inc/subsets/clicks/click2.xml</include>
+	</subset>
+
 	<view name="system,basic,detailed,video,grid">
 		<helpsystem name="help">
 			<pos>1 1</pos>
@@ -96,7 +102,7 @@ license:        creative commons CC-BY-NC-SA
 			<alignment>center</alignment>
 			<lineSpacing>1.81</lineSpacing>
 			<fontSize>0.035</fontSize>
-			<scrollSound>./_inc/sounds/select.wav</scrollSound>
+			<scrollSound>./_inc/sounds/${customclick}.wav</scrollSound>
 			<fontPath>${bodyFont}</fontPath>
 			<horizontalMargin>0.008</horizontalMargin>
 			<selectorColor>222222</selectorColor>
@@ -313,12 +319,6 @@ license:        creative commons CC-BY-NC-SA
 		<include name="max-flipped" displayName="Maximum (Flipped)">./_inc/subsets/metadata/metadata-max-flipped.xml</include>
 		<include name="media-only" displayName="Media Only">./_inc/subsets/metadata/metadata-media-only.xml</include>
 		<include name="polymega" displayName="Polymega">./_inc/subsets/metadata/metadata-polymega.xml</include>
-	</subset>
-
-	<!-- Click Sound TODO -->
-	<subset name="click-sound" displayName="Click Sound: ">
-		<include name="on" displayName="Short">./_inc/subsets/backgrounds-alt-off.xml</include>
-		<include name="off" displayName="Long">./_inc/subsets/backgrounds-alt-off.xml</include>
 	</subset>
 
 </theme>
