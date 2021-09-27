@@ -31,7 +31,7 @@ license:        creative commons CC-BY-NC-SA
 	</subset>
 
 	<!-- For Elders XD -->
-	<subset name="blindornot" displayName=" (WIP)Are you Blind ?: ">
+	<subset name="blindornot" displayName="(WIP) Are you 40+ Old ?: ">
 		<include name="blind-on" displayName="No">./_inc/subsets/blind/no.xml</include>
 		<include name="blind-off" displayName="YES IM">./_inc/subsets/blind/yes.xml</include>
 	</subset>
