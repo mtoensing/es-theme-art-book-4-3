@@ -82,9 +82,18 @@ license:        creative commons CC-BY-NC-SA
 	</view>
 
 	<view name="basic,detailed,video,grid">
-		<image name="background" extra="true">
-			<color>${backgroundCustomColor1}</color>
+		<!-- Airen style beginning -->
+		<image ifSubset="background-art:full-screen" name="background-art" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/systems/fullscreen/${system.theme}-art-fs.jpg</path>
+			<tile>false</tile>
+			<color>ffffffcc</color>
+			<zIndex>2</zIndex>
 		</image>
+		<!-- <color>${backgroundCustomColor1}</color> -->
+
 		<image name="logo">
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.18</pos>
