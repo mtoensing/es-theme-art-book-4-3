@@ -210,7 +210,7 @@ license:        creative commons CC-BY-NC-SA
 			<autoLayoutSelectedZoom>1.0</autoLayoutSelectedZoom>
 			<centerSelection>true</centerSelection>
 			<animateSelection>false</animateSelection>
-			<scrollSound>./_inc/sounds/select.wav</scrollSound>
+			<scrollSound>./_inc/sounds/${customclick}.wav</scrollSound>
 			<scrollDirection>horizontal</scrollDirection>
 			<scrollLoop>true</scrollLoop>
 		</imagegrid>
@@ -287,12 +287,12 @@ license:        creative commons CC-BY-NC-SA
 		<batteryIndicator name="batteryIndicator">
 			<pos>0.915 0.013</pos> <!-- x=439.2 y=4.16 -->
 			<size>0.07 0.07</size> <!-- 33.6 x 22.4 -->
-			<full>./_inc/images/battery-100.svg</full>
-			<at75>./_inc/images/battery-75.svg</at75>
-			<at50>./_inc/images/battery-50.svg</at50>
-			<at25>./_inc/images/battery-25.svg</at25>
-			<empty>./_inc/images/battery-0.svg</empty>
-			<incharge>./_inc/images/battery-charging.svg</incharge>
+			<full>./_inc/images/battery/battery-100.svg</full>
+			<at75>./_inc/images/battery/battery-75.svg</at75>
+			<at50>./_inc/images/battery/battery-50.svg</at50>
+			<at25>./_inc/images/battery/battery-25.svg</at25>
+			<empty>./_inc/images/battery/battery-0.svg</empty>
+			<incharge>./_inc/images/battery/battery-charging.svg</incharge>
 			<networkIcon>./_inc/images/wifi.svg</networkIcon>
 			<color>ffffff</color>
 		</batteryIndicator>
