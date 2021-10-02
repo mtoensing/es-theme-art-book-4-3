@@ -2,7 +2,7 @@
 <!--
 theme name:     Art Book 4:3
 author:         Szalik 
-credit:         Anthony Caccese - Original Base 3:2 Theme
+credit:         Anthony Caccese - Base Theme
 license:        creative commons CC-BY-NC-SA
 -->
 <theme>
@@ -20,7 +20,7 @@ license:        creative commons CC-BY-NC-SA
 	</subset>
 
 	<!-- Theme Style -->
-	<subset name="themestyle" displayName="(WIP) Theme Style: ">
+	<subset name="themestyle" displayName="Theme Style: ">
 		<include name="dark" displayName="Dark">./_inc/subsets/style/dark.xml</include>
 		<include name="light" displayName="Light">./_inc/subsets/style/light.xml</include>
 	</subset>
@@ -83,7 +83,7 @@ license:        creative commons CC-BY-NC-SA
 
 	<view name="basic,detailed,video,grid">
 		<image name="background" extra="true">
-			<color>000000</color>
+			<color>${backgroundCustomColor1}</color>
 		</image>
 		<image name="logo">
 			<origin>0.5 0.5</origin>
@@ -103,7 +103,7 @@ license:        creative commons CC-BY-NC-SA
 
 	<view name="basic">
 		<image name="background" extra="true">
-			<color>000000</color>
+			<color>${backgroundCustomColor1}</color>
 		</image>
 	</view>
 
@@ -254,7 +254,7 @@ license:        creative commons CC-BY-NC-SA
 		<menuText name="menutext">
 			<fontPath>${bodyFont}</fontPath>
 			<fontSize>${menutextFontSize}</fontSize>
-			<color>999999</color>
+			<color>${customcolorstandard}</color>
 			<separatorColor>222222</separatorColor>
 			<selectorColor>eeeeee</selectorColor>
 			<selectedColor>181818</selectedColor>
@@ -265,7 +265,7 @@ license:        creative commons CC-BY-NC-SA
 			<color>${customcolorsubheader}</color>
 		</menuTextSmall>
 		<menuBackground name="menubg">
-			<color>000000</color>
+			<color>${backgroundCustomColor1}</color>
 			<cornerSize>20 20</cornerSize>
 		</menuBackground>
 	</view>

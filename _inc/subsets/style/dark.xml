@@ -9,5 +9,7 @@ license:        creative commons CC-BY-NC-SA
 
 	<variables>
 		<backgroundCustomColor1>000000</backgroundCustomColor1>
+		<customcolorstandard>999999</customcolorstandard>
 	</variables>
+
 </theme>

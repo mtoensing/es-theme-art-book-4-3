@@ -8,7 +8,8 @@ license:        creative commons CC-BY-NC-SA
 	<formatVersion>7</formatVersion>
 
 	<variables>
-		<backgroundCustomColor1>999999</backgroundCustomColor1>
+		<backgroundCustomColor1>a3b7bb</backgroundCustomColor1>
+		<customcolorstandard>666666</customcolorstandard>
 	</variables>
 	
 </theme>
