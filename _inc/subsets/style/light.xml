@@ -15,13 +15,12 @@ license:        creative commons CC-BY-NC-SA
 		<customcolorstandard>666666</customcolorstandard>
 		
 		<!-- Metadata backgrounds SVG -->
-		<metadatamaxflipped>metadata-dark/metadata-max-flipped</metadatamaxflipped>
-		<metadatamax>metadata-dark/metadata-max</metadatamax>
-		<metadataminflipped>metadata-dark/metadata-min-flipped</metadataminflipped>
-		<metadatamin>metadata-dark/metadata-min</metadatamin>
-		<metadataoff>metadata-dark/metadata-off</metadataoff>
-		<metadatapolymega>metadata-dark/metadata-polymega</metadatapolymega>
-
+		<metadatamaxflipped>metadata-light/metadata-max-flipped</metadatamaxflipped>
+		<metadatamax>metadata-light/metadata-max</metadatamax>
+		<metadataminflipped>metadata-light/metadata-min-flipped</metadataminflipped>
+		<metadatamin>metadata-light/metadata-min</metadatamin>
+		<metadataoff>metadata-light/metadata-off</metadataoff>
+	
 	</variables>
 
 </theme>
