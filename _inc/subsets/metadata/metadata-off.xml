@@ -18,7 +18,7 @@
          <color>ffffff55</color>
       </image>
       <image name="md-media-mask" extra="true">
-         <path>./_inc/images/metadata-off.svg</path>
+         <path>./_inc/images/${metadataoff}.svg</path>
       </image>
    </view>
 

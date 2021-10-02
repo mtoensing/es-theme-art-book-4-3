@@ -38,7 +38,7 @@
          <pos>0.7375 0.414</pos>
       </image>
       <image name="md-media-mask" extra="true">
-         <path>./_inc/images/metadata-min.svg</path>
+         <path>./_inc/images/${metadatamin}.svg</path>
       </image>
    </view>
 

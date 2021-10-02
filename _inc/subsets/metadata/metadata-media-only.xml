@@ -10,7 +10,7 @@
          <alignment>left</alignment>
       </textlist>
       <image name="md-media-mask" extra="true">
-         <path>./_inc/images/metadata-max.svg</path>
+         <path>./_inc/images/${metadatamax}.svg</path>
       </image>
    </view>
 

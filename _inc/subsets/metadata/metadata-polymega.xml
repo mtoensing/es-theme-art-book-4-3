@@ -29,7 +29,7 @@
       <image name="md-media-mask" extra="true">
          <pos>0 0.40625</pos>
          <size>1 0.59375</size>
-         <path>./_inc/images/metadata-polymega.svg</path>
+         <path>./_inc/images/${metadatapolymega}.svg</path>
       </image>
 
       <!-- Box Art & Marquee -->
@@ -50,7 +50,7 @@
          <origin>0 0</origin>
          <pos>0.291666666666667 0.34375</pos><!-- 140,110 -->
          <size>0.05 0.075</size><!-- 24,24 -->
-         <path>./_inc/images/icon-favorite.svg</path>
+         <path>./_inc/images/icons/icon-favorite.svg</path>
          <zIndex>10</zIndex>
       </image>
 
@@ -113,7 +113,7 @@
       </text>
       <image name="md_lastplayed_icon" extra="true">
          <pos>0.760416666666667 0.5625</pos><!-- 365,180 -->
-         <path>./_inc/images/icon-calendar.svg</path>
+         <path>./_inc/images/icons/icon-calendar.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
@@ -131,7 +131,7 @@
       </text>
       <image name="md_playcount_icon" extra="true">
          <pos>0.760416666666667 0.61875</pos><!-- 365,198 -->
-         <path>./_inc/images/icon-chart.svg</path>
+         <path>./_inc/images/icons/icon-chart.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
@@ -149,7 +149,7 @@
       </text>
       <image name="md_gametime_icon" extra="true">
          <pos>0.760416666666667 0.675</pos><!-- 365,216 -->
-         <path>./_inc/images/icon-clock.svg</path>
+         <path>./_inc/images/icons/icon-clock.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
@@ -174,7 +174,7 @@
       </text>
       <image name="md_players_icon" extra="true">
          <pos>0.760416666666667 0.75</pos><!-- 365,240 -->
-         <path>./_inc/images/icon-players.svg</path>
+         <path>./_inc/images/icons/icon-players.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
@@ -200,7 +200,7 @@
       </text>
       <image name="md_developer_icon" extra="true">
          <pos>0.760416666666667 0.83125</pos><!-- 365,266 -->
-         <path>./_inc/images/icon-wrench.svg</path>
+         <path>./_inc/images/icons/icon-wrench.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>
@@ -218,7 +218,7 @@
       </text>
       <image name="md_publisher_icon" extra="true">
          <pos>0.760416666666667 0.88125</pos><!-- 365,282 -->
-         <path>./_inc/images/icon-ship.svg</path>
+         <path>./_inc/images/icons/icon-ship.svg</path>
          <maxSize>0.025 0.0375</maxSize><!-- 12,12 -->
          <color>444444</color>
       </image>

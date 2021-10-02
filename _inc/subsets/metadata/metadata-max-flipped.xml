@@ -7,7 +7,7 @@
    <view name="detailed,video,grid">
 
       <image name="md-media-mask" extra="true">
-         <path>./_inc/images/metadata-max-flipped.svg</path>
+         <path>./_inc/images/${metadatamaxflipped}.svg</path>
       </image>
 
       <!-- Genre & Name -->
