@@ -60,7 +60,7 @@
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
-         <text>Last Played:</text>
+         <text>Last Play:</text>
       </text>
       <datetime name="md_lastplayed">
          <visible>true</visible>
@@ -77,7 +77,7 @@
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
-         <text># of plays:</text>
+         <text># of play:</text>
       </text>
       <text name="md_playcount">
          <visible>true</visible>
@@ -93,7 +93,7 @@
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
-         <text>Time Played:</text>
+         <text>Time Play:</text>
       </text>
       <text name="md_gametime">
          <visible>true</visible>
@@ -110,7 +110,7 @@
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
-         <text>Developer:</text>
+         <text>Developer: </text>
       </text>
       <text name="md_developer">
          <visible>true</visible>
@@ -126,7 +126,7 @@
          <size>0.2 0.028125</size>
          <fontSize>0.028125</fontSize>
          <forceUppercase>true</forceUppercase>
-         <text>Publisher:</text>
+         <text>Publisher: </text>
       </text>
       <text name="md_publisher">
          <visible>true</visible>
