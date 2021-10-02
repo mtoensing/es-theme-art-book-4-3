@@ -8,12 +8,16 @@ license:        creative commons CC-BY-NC-SA
 <theme>
 	<formatVersion>7</formatVersion>
 
-	<!-- Font Types -->
+	<!-- Space Image -->
 	<variables>
-		<logoFont>./_inc/fonts/nunito-Italic.ttf</logoFont>
-		<bodyFont>./_inc/fonts/nunito-Bold.ttf</bodyFont>
 		<spacerImage>./_inc/images/space.png</spacerImage>
 	</variables>
+
+	<!-- Font Size and Style -->
+	<subset name="blindornot" displayName="(WIP) Are you 40+ Old ?: ">
+		<include name="blind-on" displayName="No">./_inc/subsets/blind/no.xml</include>
+		<include name="blind-off" displayName="YES IM">./_inc/subsets/blind/yes.xml</include>
+	</subset>
 
 	<!-- Theme Style -->
 	<subset name="themestyle" displayName="(WIP) Theme Style: ">
@@ -23,17 +27,12 @@ license:        creative commons CC-BY-NC-SA
 
 	<!-- Color Sets -->
 	<subset name="colorset" displayName="Color Scheme: ">
+		<include name="classic" displayName="classic">./_inc/subsets/colorset/classic.xml</include>
 		<include name="orange" displayName="Orange">./_inc/subsets/colorset/orange.xml</include>
 		<include name="red" displayName="Red">./_inc/subsets/colorset/red.xml</include>
 		<include name="green" displayName="Green">./_inc/subsets/colorset/green.xml</include>
 		<include name="blue" displayName="Blue">./_inc/subsets/colorset/blue.xml</include>
 		<include name="yellow" displayName="Yellow">./_inc/subsets/colorset/yellow.xml</include>
-	</subset>
-
-	<!-- For Elders XD -->
-	<subset name="blindornot" displayName="(WIP) Are you 40+ Old ?: ">
-		<include name="blind-on" displayName="No">./_inc/subsets/blind/no.xml</include>
-		<include name="blind-off" displayName="YES IM">./_inc/subsets/blind/yes.xml</include>
 	</subset>
 
 	<!-- Click Sounds Sets -->
@@ -242,19 +241,19 @@ license:        creative commons CC-BY-NC-SA
 	<view name="menu">
 		<menuText name="menutitle">
 			<fontPath>${bodyFont}</fontPath>
-			<fontSize>0.048</fontSize>
+			<fontSize>${menutitleFontSize}</fontSize>
 			<color>${customcolorheader}</color>
 		</menuText>
 
 		<menuText name="menufooter">
 			<fontPath>${bodyFont}</fontPath>
-			<fontSize>0.0365</fontSize>
+			<fontSize>${menufooterFontSize}</fontSize>
 			<color>${customcolorfoooter}</color>
 		</menuText>
 
 		<menuText name="menutext">
 			<fontPath>${bodyFont}</fontPath>
-			<fontSize>0.042</fontSize>
+			<fontSize>${menutextFontSize}</fontSize>
 			<color>999999</color>
 			<separatorColor>222222</separatorColor>
 			<selectorColor>eeeeee</selectorColor>
@@ -262,7 +261,7 @@ license:        creative commons CC-BY-NC-SA
 		</menuText>
 		<menuTextSmall name="menutextsmall">
 			<fontPath>${bodyFont}</fontPath>
-			<fontSize>0.035</fontSize>
+			<fontSize>${menutextsmallFontSize}</fontSize>
 			<color>${customcolorsubheader}</color>
 		</menuTextSmall>
 		<menuBackground name="menubg">
