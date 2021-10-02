@@ -83,7 +83,8 @@ license:        creative commons CC-BY-NC-SA
 
 	<view name="basic,detailed,video,grid">
 		<!-- Airen style beginning -->
-		<image ifSubset="background-art:full-screen" name="background-art" extra="true">
+
+		<!-- <image ifSubset="background-art:full-screen" name="background-art" extra="true">
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
@@ -91,8 +92,10 @@ license:        creative commons CC-BY-NC-SA
 			<tile>false</tile>
 			<color>ffffffcc</color>
 			<zIndex>2</zIndex>
+		</image> -->
+		<image name="background" extra="true">
+			<color>${backgroundCustomColor1}</color>
 		</image>
-		<!-- <color>${backgroundCustomColor1}</color> -->
 
 		<image name="logo">
 			<origin>0.5 0.5</origin>
