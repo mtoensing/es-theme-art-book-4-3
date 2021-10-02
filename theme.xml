@@ -26,7 +26,7 @@ license:        creative commons CC-BY-NC-SA
 	</subset>
 
 	<!-- Color Sets -->
-	<subset name="colorset" displayName="Color Scheme: ">
+	<subset name="colorset" displayName="Menu Color: ">
 		<include name="classic" displayName="classic">./_inc/subsets/colorset/classic.xml</include>
 		<include name="orange" displayName="Orange">./_inc/subsets/colorset/orange.xml</include>
 		<include name="red" displayName="Red">./_inc/subsets/colorset/red.xml</include>
@@ -63,7 +63,7 @@ license:        creative commons CC-BY-NC-SA
 			<path>${spacerImage}</path>
 			<tile>true</tile>
 			<zIndex>1</zIndex>
-			<color>000000</color>
+			<color>${backgroundCustomColor1}</color>
 		</image>
 	</view>
 
