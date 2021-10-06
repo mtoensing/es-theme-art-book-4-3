@@ -84,7 +84,7 @@ license:        creative commons CC-BY-NC-SA
 	<view name="basic,detailed,video,grid">
 		<!-- Airen style beginning -->
 
-		<!-- <image ifSubset="background-art:full-screen" name="background-art" extra="true">
+		<!-- <image ifSubset="background-art:on" name="background-art" extra="true">
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
@@ -317,15 +317,15 @@ license:        creative commons CC-BY-NC-SA
 
     <!-- System View Art -->
 	<subset name="background-art" displayName="System View Art: ">
-		<include name="full-screen" displayName="Full Screen">./_inc/subsets/backgrounds/background-art-fullscreen.xml</include>
+		<include name="on" displayName="Full Screen">./_inc/subsets/backgrounds/background-art-fullscreen.xml</include>
 		<include name="centered" displayName="Centered ">./_inc/subsets/backgrounds/background-art-on.xml</include>
 		<include name="background-off" displayName="No Artwork">./_inc/subsets/backgrounds/background-art-off.xml</include>
 	</subset>
 
 	<!-- Alternative System View Art Support -->
-	<subset name="alt-art" displayName="Alternative Arts: ">
-		<include name="alt-off" displayName="Off">./_inc/subsets/backgrounds/backgrounds-alt-off.xml</include>
-		<include name="alt-on" displayName="On">./_inc/subsets/backgrounds/backgrounds-alt-on.xml</include>
+	<subset name="88-mph" displayName="Alternative Arts: ">
+		<include name="on" displayName="Off">./_inc/subsets/backgrounds/backgrounds-alt-off.xml</include>
+		<include name="off" displayName="On">./_inc/subsets/backgrounds/backgrounds-alt-on.xml</include>
 	</subset>
 
 	<!-- Game Count Display -->
