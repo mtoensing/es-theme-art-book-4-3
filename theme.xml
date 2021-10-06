@@ -27,9 +27,9 @@ license:        creative commons CC-BY-NC-SA
 
 	<!-- Color Sets -->
 	<subset name="colorset" displayName="Menu Color: ">
-		<include name="classic" displayName="classic">./_inc/subsets/colorset/classic.xml</include>
-		<include name="orange" displayName="Orange">./_inc/subsets/colorset/orange.xml</include>
 		<include name="red" displayName="Red">./_inc/subsets/colorset/red.xml</include>
+		<include name="classic" displayName="Classic">./_inc/subsets/colorset/classic.xml</include>
+		<include name="orange" displayName="Orange">./_inc/subsets/colorset/orange.xml</include>
 		<include name="green" displayName="Green">./_inc/subsets/colorset/green.xml</include>
 		<include name="blue" displayName="Blue">./_inc/subsets/colorset/blue.xml</include>
 		<include name="yellow" displayName="Yellow">./_inc/subsets/colorset/yellow.xml</include>
