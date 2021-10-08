@@ -14,16 +14,26 @@ license:        creative commons CC-BY-NC-SA
 	</variables>
 
 	<!-- Font Size and Style -->
-	<subset name="blindornot" displayName="Are you 40+ Old ?: ">
-		<include name="blind-on" displayName="No">./_inc/subsets/blind/no.xml</include>
-		<include name="blind-off" displayName="YES IM">./_inc/subsets/blind/yes.xml</include>
+	<subset name="blindornot" displayName="Text Size">
+		<include name="blind-on" displayName="Normal">./_inc/subsets/blind/no.xml</include>
+		<include name="blind-off" displayName="Increased">./_inc/subsets/blind/yes.xml</include>
 	</subset>
 
 	<!-- Theme Style -->
-	<subset name="themestyle" displayName="Theme Style: ">
-		<include name="dark" displayName="Dark">./_inc/subsets/style/dark.xml</include>
-		<include name="light" displayName="Light">./_inc/subsets/style/light.xml</include>
-	</subset>
+	<variables>
+		<!-- Default background color -->
+		<backgroundCustomColor1>000000</backgroundCustomColor1>
+		
+		<!-- Font Default color in menu -->
+		<customcolorstandard>999999</customcolorstandard>
+		
+		<!-- Metadata backgrounds SVG -->
+		<metadatamaxflipped>metadata-dark/metadata-max-flipped</metadatamaxflipped>
+		<metadatamax>metadata-dark/metadata-max</metadatamax>
+		<metadataminflipped>metadata-dark/metadata-min-flipped</metadataminflipped>
+		<metadatamin>metadata-dark/metadata-min</metadatamin>
+		<metadataoff>metadata-dark/metadata-off</metadataoff>
+	</variables>
 
 	<!-- Color Sets -->
 	<subset name="colorset" displayName="Menu Color: ">
@@ -35,11 +45,9 @@ license:        creative commons CC-BY-NC-SA
 		<include name="yellow" displayName="Yellow">./_inc/subsets/colorset/yellow.xml</include>
 	</subset>
 
-	<!-- Click Sounds Sets -->
-	<subset name="clickset" displayName="Click Sound: ">
-		<include name="click1" displayName="Click 1">./_inc/subsets/clicks/click1.xml</include>
-		<include name="click2" displayName="Click 2">./_inc/subsets/clicks/click2.xml</include>
-	</subset>
+	<variables>
+		<customclick>select_shorter</customclick>
+	</variables>
 
 	<view name="system,basic,detailed,video,grid">
 		<helpsystem name="help">
@@ -316,18 +324,34 @@ license:        creative commons CC-BY-NC-SA
 	</view>
 
     <!-- System View Art -->
-	<subset name="background-art" displayName="System View Art: ">
-		<include name="on" displayName="Full Screen">./_inc/subsets/backgrounds/background-art-fullscreen.xml</include>
-		<include name="centered" displayName="Centered ">./_inc/subsets/backgrounds/background-art-on.xml</include>
-		<include name="background-off" displayName="No Artwork">./_inc/subsets/backgrounds/background-art-off.xml</include>
-	</subset>
+		<view name="system">
+		<image name="background-art" extra="true">
+			<origin>.5 0</origin>
+			<pos>0.5 0</pos>
+			<size>1 1</size>
+			<path>./_inc/systems/centered/${system.theme}-art.png</path>
+			<tile>false</tile>
+			<color>ffffff99</color>
+			<zIndex>2</zIndex>
+		</image>
+
+		<text name="systemInfo">
+			<fontPath>${bodyFont}</fontPath>
+			<size>0.99 0</size>
+			<pos>0 0.93</pos>
+			<color>ffffff55</color>
+			<alignment>right</alignment>
+			<fontSize>0.03125</fontSize>
+		</text>
+	</view>
 
 	<!-- Alternative System View Art Support -->
+	<!-- 
 	<subset name="88-mph" displayName="Alternative Arts: ">
 		<include name="on" displayName="Off">./_inc/subsets/backgrounds/backgrounds-alt-off.xml</include>
 		<include name="off" displayName="On">./_inc/subsets/backgrounds/backgrounds-alt-on.xml</include>
 	</subset>
-
+    -->
 	<!-- Game Count Display -->
 	<subset name="game-count" displayName="Games Count: ">
 		<include name="gamecount-off" displayName="Hide">./_inc/subsets/display-game-count-off.xml</include>
