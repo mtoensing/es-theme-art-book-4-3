@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:     Art Book 4:3
+authors:        Szalik
+license:        creative commons CC-BY-NC-SA
+-->
 <theme>
    <formatVersion>7</formatVersion>
 
@@ -64,14 +69,18 @@
    </view>
 
    <view name="detailed, basic, grid">
-      <image name="md_image">
-         <origin>0.5 0.5</origin>
-         <pos>0.729166666666667 0.50625</pos><!-- 350,130 -->
-         <maxSize>0.416666666666667 0.425</maxSize><!-- 200,200 -->
-      </image>
-      <image name="md-media-mask" extra="true">
-         <path>./_inc/systems/fs-bg/${system.theme}-gamelist-basic.jpg</path>
-      </image>
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.729166666666667 0.50625</pos><!-- 350,130 -->
+			<maxSize>0.416666666666667 0.425</maxSize><!-- 200,200 -->
+		</image>
+	  
+	<!--<image name="md-media-mask" extra="true">-->
+		<image ifSubset="background-art:on" name="background-art" extra="true">
+			<path>./_inc/systems/default/${system.theme}-gamelist-basic.jpg</path>
+		</image>
+	<!--</image>-->
+	  
    </view>
 
    <view name="video">
@@ -105,9 +114,14 @@
          <pos>0.729166666666667 0.375</pos><!-- 350,120 -->
          <maxSize>1 1.6</maxSize><!-- 400,300 -->
       </video>
-      <image name="md-media-mask" extra="true">
-         <path>./_inc/systems/fs-bg/${system.theme}-gamelist-metadata.png</path>
-      </image>
+
+		<image ifSubset="background-art:on" name="background-art" extra="true">
+			<path>./_inc/systems/default/fullscreen-default.png</path>
+			<path>./_inc/systems/fs-bg/${system.theme}-gamelist-metadata.png</path>
+		</image>
+		<image ifSubset="background-art:centered" name="background-art" extra="true">
+			<path>./_inc/systems/default/centered-default.png</path>
+		</image>
    </view>
 
 </theme>
